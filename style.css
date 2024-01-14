@@ -14,7 +14,7 @@ html{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/Modern\ office\ table\ with\ keyboard\,\ glasses\,\ notebook\ on\ white\ background\ top\ view\ mock-up.jpg);
+    background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -59,15 +59,18 @@ nav ul li a:hover::after{
     font-size: 70px;
 }
 .header-text h1{
+    text-shadow: 1px 1.5px 3px #000;
     color: #000;
     font-size: 85px;
     margin-top: 200px;
 }
 .header-text h6{
+    text-shadow: 1px 1.5px 3px #000;
     color: #000;
     margin-top: 10px;
 }
 .header-text h1 span{
+    text-shadow: 0px 0px 0px #fff;
     color: #66FCF1;
 }
 /*--------------------about------------------*/
@@ -153,9 +156,8 @@ nav ul li a:hover::after{
     position: relative;
     overflow: hidden;
 }
-
 .work img{
-    width: 150%;
+    width: 100%;
     height: 100%;
     border-radius: 10px;
     display: block;
