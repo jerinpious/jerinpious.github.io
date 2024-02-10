@@ -214,6 +214,9 @@ nav ul li a:hover::after{
 .work:hover img{
     transform: scale(1.1);
 }
+.work.wrk:hover img{
+    transform: scale(1.1);
+}
 
 .work:hover .layer{
     height: 100%;
@@ -237,6 +240,19 @@ nav ul li a:hover::after{
     background: #274C77;
 }
 
+.seemore{
+    display: flex;
+}
+.btn.btn3{
+    color: #fff;
+    display: inline-block;
+    background: #274C77;
+}
+
+.btn.btn3:hover{
+    color:#274C77;
+    background:#fff;
+}
 
 /* -------------------contact-------------------*/
 .contact-left{
